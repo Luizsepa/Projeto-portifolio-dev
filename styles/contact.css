@@ -1,0 +1,50 @@
+#contact {
+  padding-top: 128px;
+  padding-inline: 120px;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  place-content: center;
+  gap: 48px;
+  height: 780px;
+  background-image: url(../assets/background/Background_Contacts.png);
+  background-size: cover;
+  #text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}
+#contactbuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      /* border: solid; */
+      transform: scale(0.95);
+      transition: 0.08s;
+    }
+  }
+  #button {
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    width: 400px;
+    height: 68px;
+    background-color: var(--gray-300);
+    border-radius: 14px;
+    #contentbutton {
+      gap: 12px;
+      display: flex;
+      align-self: center;
+      p {
+        text-decoration: none;
+      }
+    }
+  }
+}

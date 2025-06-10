@@ -1,0 +1,40 @@
+#Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  height: 480px;
+  background-color: var(--gray-100);
+  z-index: auto;
+  padding-top: 88px;
+  #text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+}
+#blockservices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  #block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    height: 155px;
+    border-radius: 14px;
+    border: 2px solid var(--gray-200);
+    padding: 20px;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
